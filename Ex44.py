@@ -21,3 +21,6 @@ elif opção == 4:
     parcelas = int(input('Quantas parcelas? '))
     parcela = total / parcelas
     print('Sua compra será parcelada em {}x de R$ {:.2f} COM JUROS'.format(parcelas, parcela))
+else:
+    opção = 0
+    print('OPÇÃO INVÁLIDA de pagamento. Tente novamente!')
