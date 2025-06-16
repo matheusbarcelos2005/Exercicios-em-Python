@@ -26,8 +26,8 @@ for p in range (1,5):
             maioridade = idade
         if idade < menoridade:
             menoridade = idade
-    if sexo in 'Ff' and idade > 20:
+    if sexo in 'Ff' and idade < 20:
         totmulher += 1
 print('A média de idade do grupo é de {} anos'.format(mediaidade))
-print('O homem mais velho tem {} anos e se chama {}'.format(maioridade, nome))
+print('O homem mais velho tem {} anos e se chama {}'.format(maioridadehomem, nomevelho))
 print('Ao todo são {} mulheres com menos de 20 anos'.format(totmulher))
